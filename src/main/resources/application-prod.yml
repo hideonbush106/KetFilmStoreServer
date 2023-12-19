@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${DB_URL}${DB_NAME}
+    username: ${DB_USERNAME}
+    password: 1712@NgocTram
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
